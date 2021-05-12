@@ -1,0 +1,43 @@
+@import '../../../styles/variables';
+
+.contactText-IconItem{
+    margin: 35px 0;
+    border: 1px solid #F3F3F3A1;
+    border-radius: 15px 5px 5px 0px;
+    display: flex;
+    padding: 0;
+    width: 100%;
+    div{
+        &:nth-child(1){
+            margin-right: 10px;
+            .iconContainer{
+                margin-bottom: 0;
+                display: block;
+            }
+        }
+        &:nth-child(2){
+            .paragraphCards{
+                margin: 0 0 10px 0;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 750px){
+    .contactText-IconItem{
+        margin: 20px 0;
+        text-align: left;
+        div{
+            &:nth-child(1){
+                .iconContainer{
+                    padding: 20px;
+                }
+            }
+            &:nth-child(2){
+                .paragraphCards{
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+}

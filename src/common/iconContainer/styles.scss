@@ -1,0 +1,23 @@
+@import '.././../styles/variables';
+
+.iconContainer{
+    padding: 20px 20px 20px 20px;
+    display: inline-block;
+    margin-bottom: 13px;
+    background-color: #F3F3F3A1;
+    border-radius: 15% 0% 15% 0%;
+    overflow: hidden;
+    i{
+        font-size: 40px;
+        color: $green;    
+    }
+}
+
+@media screen and (max-width: 750px){
+    .iconContainer{
+        padding: 15px 15px 15px 15px;
+        i{
+            font-size: 30px;
+        }
+    }   
+}

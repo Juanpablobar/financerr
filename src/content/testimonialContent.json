@@ -1,0 +1,35 @@
+{
+    "sectionTitle" : "Testimonial",
+    "headingTitle" : "What Client Say",
+    "paragraph" : "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    "itemsSlider" : [
+        {
+            "id" : 0,
+            "text" : "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.",
+            "name" : "Albert Junior",
+            "occupation" : "Designer",
+            "img" : "slider1.png"
+        },
+        {
+            "id" : 1,
+            "text" : "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.",
+            "name" : "Clara Jepsen",
+            "occupation" : "CEO",
+            "img" : "slider2.png"
+        },
+        {
+            "id" : 2,
+            "text" : "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.",
+            "name" : "Steven Chaw",
+            "occupation" : "Manager",
+            "img" : "slider3.png"
+        },
+        {
+            "id" : 3,
+            "text" : "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.",
+            "name" : "Jonathan Doe",
+            "occupation" : "Manager",
+            "img" : "slider4.png"
+        }
+    ]
+}

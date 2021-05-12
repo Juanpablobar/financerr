@@ -1,0 +1,19 @@
+{
+    "sectionTitle" : "About Us",
+    "headingTitle" : "The Easiest Way to Manage Personal Finances",
+    "text" : "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.",
+    "icons" : [
+        {
+            "id" : 0,
+            "icon" : "fas fa-medal",
+            "number" : 20,
+            "text" : "Years of Experience"
+        },
+        {
+            "id" : 1,
+            "icon" : "fas fa-user-friends",
+            "number" : 45,
+            "text" : "Team Members"
+        }
+    ]
+}

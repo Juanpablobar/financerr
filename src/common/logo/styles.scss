@@ -1,0 +1,12 @@
+@import '../../styles/variables';
+
+.logo-container{
+    padding: 10px;
+    @include flex;
+    a{
+        text-align: center;
+        img{
+            width: 100%;
+        }
+    }
+}

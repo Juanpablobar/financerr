@@ -1,0 +1,16 @@
+@import '../../styles/variables';
+
+.sectionTitle{
+    color: $green;
+    font-size: 20px;
+    line-height: 20px;
+    font-family: $lato;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 750px){
+    .sectionTitle{
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,18 @@
+@import '../../styles/variables';
+
+.heading-title{
+    font-size: 32px;
+    font-weight: 600;
+    font-family: $lato;
+    line-height: 1.2em;
+    color: $gray;
+}
+
+@media screen and (max-width:750px){
+    .heading-title{
+        font-size: 24px;
+    }
+    p{
+        font-size: 14px;
+    }
+}

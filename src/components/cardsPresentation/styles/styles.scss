@@ -1,0 +1,21 @@
+@import '../../../styles/variables';
+@import './cards';
+
+.Cards{
+    margin-top: -80px !important;
+    z-index: 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+@media screen and (max-width: 1000px) {
+    .Cards{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .Cards{
+        display: block;
+    }
+}

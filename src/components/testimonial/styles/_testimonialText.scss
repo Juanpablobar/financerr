@@ -1,0 +1,13 @@
+@import '../../../styles/variables';
+
+.testimonialText{
+    background: #f5fffc;
+    padding: 100px 0px 145px 0px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1000px){
+    .testimonialText{
+        padding: 60px 10px 130px 10px;
+    }
+}

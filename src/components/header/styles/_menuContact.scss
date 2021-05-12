@@ -1,0 +1,71 @@
+@import '../../../styles/variables';
+
+.header-contact{
+    width: 17.471%;
+    display: flex;
+    .menu-contact{
+        border-style: solid;
+        border-width: 0px 0px 0px 1px;
+        border-color: #DDDDDD42;
+        padding: 0px 10px 0px 30px;
+        display: flex;
+        div{
+            text-align: right;
+            &:nth-child(1){
+                @include flex;
+                span{
+                    @include flex;
+                    i{
+                        font-size: 30px;
+                        color: $green;    
+                    }
+                }
+            }
+            &:nth-child(2){
+                padding-left: .5em;
+                h3{
+                    font-size: 15px;
+                    font-weight: 300;
+                    color: $gray;
+                    margin-bottom: 2px;
+                    font-family: $lato;
+                }
+                p{
+                    color: $gray;
+                    font-size: 16px;
+                    font-weight: 500;
+                    margin: 0;
+                    padding: 0;
+                    font-family: $heebo;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1125px){
+    .header-contact{
+        width: 20%;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .header-contact{
+        width: 23%;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .header-contact{
+        width: 12.5em;
+        .menu-contact{
+            border: 0;
+        }
+    }
+}
+
+@media screen and (max-width: 750px){
+    .header-contact{
+        display: none;
+    }
+}

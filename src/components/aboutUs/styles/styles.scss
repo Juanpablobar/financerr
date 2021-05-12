@@ -1,0 +1,22 @@
+@import '../../../styles/variables';
+@import './aboutUsText';
+@import './aboutUsImage';
+
+.aboutUs{
+    margin-top: 40px;
+    padding: 20px 0px 100px 0px;
+    display: flex;
+}
+
+@media screen and (max-width: 1000px){
+    .aboutUs{
+        padding: 20px 10px 60px 10px;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 750px){
+    .aboutUs{
+        padding: 0px 10px 40px 10px;
+    }
+}

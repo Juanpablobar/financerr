@@ -1,0 +1,28 @@
+{
+    "items" : [
+        {
+            "id" : 0,
+            "icon" : "fas fa-users",
+            "title" : "Professional Advice",
+            "paragraph" : "Far far away, behind the word mountains, far from the countries Vokalia"
+        },
+        {
+            "id" : 1,
+            "icon" : " fas fa-expand-arrows-alt",
+            "title" : "Fully Independent",
+            "paragraph" : "Far far away, behind the word mountains, far from the countries Vokalia"
+        },
+        {
+            "id" : 2,
+            "icon" : "fas fa-handshake",
+            "title" : "Transparant",
+            "paragraph" : "Far far away, behind the word mountains, far from the countries Vokalia"
+        },
+        {
+            "id" : 3,
+            "icon" : "fas fa-headset",
+            "title" : "Great Support",
+            "paragraph" : "Far far away, behind the word mountains, far from the countries Vokalia"
+        }
+    ]
+}

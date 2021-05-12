@@ -1,0 +1,56 @@
+@import '../../styles/variables';
+
+.error404{
+    padding: 100px 0px 100px 0px;
+    width: 100%;
+    .error404-content{
+        max-width: 540px;
+        @include margin;
+        padding: 10px;
+        text-align: center;
+        h2{
+            color: $green;
+            font-family: $lato;
+            margin: 0;
+            font-size: 128px;
+            font-weight: 600;
+        }
+        h3{
+            text-align: center;
+            color: #6b7c93;
+            font-family: $heebo;
+            font-size: 32px;
+            font-weight: 600;
+            line-height: 48px;
+            margin: 0;
+            margin-bottom: 20px;
+        }
+        p{
+            font-family: $heebo;
+            font-weight: 300;
+            margin: 0;
+            line-height: 24px;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+@media screen and (max-width: 750px){
+    .error404{
+        padding: 60px 10px 60px 10px;
+        width: calc(100% - 20px);
+        .error404-content{
+            h2{
+                font-size: 72px;
+            }
+            h3{
+                font-size: 24px;
+                line-height: 36px;
+            }
+            p{
+                font-size: 14px;
+                line-height: 21px;
+            }
+        }
+    }
+}

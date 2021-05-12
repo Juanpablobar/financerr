@@ -1,0 +1,21 @@
+@import '../../../styles/variables';
+
+.aboutUsImage{
+    width: 50%;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+@media screen and (max-width: 1000px){
+    .aboutUsImage{
+        width: 70%;
+        @include margin;
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 750px){
+    .aboutUsImage{
+        display: none;
+    }
+}

@@ -1,0 +1,16 @@
+@import '../../../styles/variables';
+@import './contactText.scss';
+@import './contactForm';
+@import './contactText-IconItem.scss';
+
+.contact{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 1000px){
+    .contact{
+        display: block;
+    }
+}

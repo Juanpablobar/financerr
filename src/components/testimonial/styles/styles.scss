@@ -1,0 +1,21 @@
+@import '../../../styles/variables';
+@import './testimonialText.scss';
+@import './testimonialSliderItem.scss';
+
+.testimonialSlider{
+    padding: 25px 0;
+    margin-top: -155px;
+}
+
+@media screen and (max-width:1000px){
+    .testimonialSlider{
+        padding: 25px 10px;
+        margin-top: -120px;
+    }
+}
+
+@media screen and (max-width:750px){
+    .testimonialSlider{
+        margin-top: -150px;
+    }
+}

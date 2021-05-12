@@ -1,0 +1,42 @@
+{
+    "sectionTitle" : "Our Team",
+    "headingTitle" : "Meet The Expert",
+    "sliderItems" : [
+        {
+            "id" : 0,
+            "name" : "Jennifer Christine",
+            "occupation" : "Financial Advisor",
+            "img" : "team1.png",
+            "facebook" : "#",
+            "twitter" : "#",
+            "linkedin" : "#"
+        },
+        {
+            "id" : 1,
+            "name" : "Regina Clover",
+            "occupation" : "Finance Head",
+            "img" : "team2.png",
+            "facebook" : "#",
+            "twitter" : "#",
+            "linkedin" : "#"
+        },
+        {
+            "id" : 2,
+            "name" : "Barry Adams",
+            "occupation" : "Head Office Manager",
+            "img" : "team3.png",
+            "facebook" : "#",
+            "twitter" : "#",
+            "linkedin" : "#"
+        },
+        {
+            "id" : 3,
+            "name" : "Jennifer Christine",
+            "occupation" : "Finance Head",
+            "img" : "team1.png",
+            "facebook" : "#",
+            "twitter" : "#",
+            "linkedin" : "#"
+        }
+    ]
+}

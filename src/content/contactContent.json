@@ -1,0 +1,24 @@
+{
+    "headingTitle" : "Get In Touch",
+    "paragraph" : "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    "itemsContact" : [
+        {
+            "id" : 0,
+            "icon" : "fas fa-map-marked-alt",
+            "title" : "Kuta",
+            "text" : "Jl. Sunset Road No. 815, Kuta, Bali"
+        },
+        {
+            "id" : 1,
+            "icon" : "fas fa-envelope",
+            "title" : "Denpasar",
+            "text" : "Jl. Niti Mandala, Renon, Bali"
+        },
+        {
+            "id" : 2,
+            "icon" : "fas fa-phone-alt",
+            "title" : "Tabanan",
+            "text" : "Jl. Tendean, Kediri, Bali"
+        }
+    ]
+}

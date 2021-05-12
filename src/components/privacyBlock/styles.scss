@@ -1,0 +1,15 @@
+@import '../../styles/variables';
+
+.privacyBlock{
+    padding: 50px 0 100px 0;
+    max-width: 750px;
+    .heading-title{
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width:750px){
+    .privacyBlock{
+        max-width: 90%;
+    }
+}

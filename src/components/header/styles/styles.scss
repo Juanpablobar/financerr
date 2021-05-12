@@ -1,0 +1,101 @@
+@import '../../../styles/variables';
+@import './menuToggle';
+@import './menuContact';
+@import './menuLinks';
+@import './menuSide';
+
+header{
+    width: 100%;
+    position: relative;
+    box-shadow: 0px 2px 5px 0px rgb(0 0 0 / 15%);
+    z-index: 1000;
+    nav{
+        max-width: 1140px;
+        @include margin;
+        @include flex;
+        .header-logo{
+            width: 17.982%;
+        }
+        .header-toggle{
+            display: none;
+        }
+    }
+}
+
+@media screen and (max-width: 1125px){
+    header{
+        nav{
+            max-width: 1125px;
+            .header-logo{
+                width: 17.5%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1024px){
+    header{
+        nav{
+            max-width: 1024px;
+            .header-logo{
+                width: 17%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1000px){
+    header{
+        nav{
+            flex-wrap: wrap;
+            max-width: 1000px;
+            padding: 10px;
+            justify-content: space-between;
+            .header-logo{
+                width: 100%;
+                border-width: 0px 0px 1px 0px;
+                border-style: solid;
+                border-color: #DDDDDD42;
+                margin: 0px;
+                padding: 10px 0px 17px 0px;
+                .logo-container{
+                    padding: 0 10px;
+                    a{
+                        img{
+                            width: 30%;
+                        }
+                    }
+                }
+            }
+            .header-toggle{
+                width: 10em;
+                display: flex;
+                align-items: center;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:750px){
+    header{
+        nav{
+            .header-logo{
+                width: 50%;
+                border: 0;
+                .logo-container{
+                    padding: 0;
+                    a{
+                        img{
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+            .header-toggle{
+                width: 50%;
+                display: flex;
+                justify-content: flex-end;
+            }
+        }
+    }
+}

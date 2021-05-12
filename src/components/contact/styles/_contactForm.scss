@@ -1,0 +1,51 @@
+@import '../../../styles/variables';
+
+.contactForm{
+    width: 50%;
+    box-shadow: 0px 5px 25px 0px rgb(0 0 0 / 10%);
+    padding: 60px 60px 80px 60px;
+    margin: 0px 0px -80px 0px;
+    background: #fff;
+    position: relative;
+    z-index: 2;
+    form{
+        .inputMessage{
+            height: 176px;
+        }
+        button{
+            font-size: 14px;
+        }
+        .error{
+            padding: .5em 0;
+            span{
+                color: rgb(255,130,92);
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .contactForm{
+        width: calc(100% - 120px);
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 750px){
+    .contactForm{
+        padding: 30px 30px 50px 30px;
+        width: calc(100% - 60px);
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .contactForm{
+        form{
+            button{
+                width: 100%;
+            }
+        }
+    }
+}

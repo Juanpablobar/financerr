@@ -1,0 +1,99 @@
+@import '../../../styles/variables';
+
+.footerInformation{
+    display: flex;
+    margin-top: 10px;
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+    border-bottom:  1px solid #A0AABA2B;
+    .footerLogo{
+        width: 33.596%;
+        padding: 10px 60px 10px 10px;
+        .logo-container{
+            padding: 0;
+            margin-bottom: 20px;
+            a{
+                text-align: left;
+                img{
+                    width: 60%;
+                }
+            }
+        }
+    }
+    .footerPages{
+        width: 17.193%;
+    }
+    .footerLinks{
+        width: 14.211%;
+    }
+    .footerContact{
+        margin: 0px 0px 0px 30px;
+        width: 35%;
+        a{
+            padding: 0;
+            color: white;
+            font-size: 16px;
+            font-weight: 500;
+            font-family: $heebo;
+            line-height: 16px;
+            letter-spacing: 1.2px;
+            &:hover{
+                color: white;
+            }
+        }
+    }
+    .footerTitle{
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 18px;
+        color: #fff;
+        font-family: $lato;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    a{
+        color: $letter;
+        font-size: 16px;
+        cursor: pointer;
+        font-weight: 300;
+        line-height: 24px;
+        display: block;
+        font-family: $heebo;
+        padding: 5px 0;
+        &:hover{
+            color: $green;
+        }
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .footerInformation{
+        flex-wrap: wrap;
+        .footerLogo{
+            width: calc(50% - 70px);
+        }
+        .footerPages{
+            width: 50%;
+        }
+        .footerLinks, .footerContact{
+            margin: 20px 0px 0px 0px;
+            width: 50%;
+        }
+    }
+}
+
+@media screen and (max-width: 750px){
+    .footerInformation{
+        margin-top: 0;
+        .footerLogo{
+            width: calc(100% - 70px);
+        }
+        .footerPages{
+            width: 100%;
+        }
+        .footerLinks, .footerContact{
+            margin: 20px 0px 0px 0px;
+            width: 100%;
+        }
+    }
+}

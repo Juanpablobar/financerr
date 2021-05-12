@@ -1,0 +1,21 @@
+@import '../../styles/variables';
+
+.container{
+    max-width: 1140px;
+    @include margin;
+    position: relative;
+}
+
+@media screen and (max-width:1000px){
+    .container{
+        padding: 0px 10px 0px 10px;
+        max-width: 1000px;
+    }
+}
+
+@media screen and (max-width:750px){
+    .container{
+        padding: 0px 10px 0px 10px;
+        max-width: calc(100% - 20px);
+    }
+}

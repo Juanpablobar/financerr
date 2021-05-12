@@ -1,0 +1,33 @@
+@import '../../styles/variables';
+
+.whatsAppButton{
+    position: fixed;
+    right: 1em;
+    bottom: 1em;
+    z-index: 999;
+    div{
+        @include flex;
+        a{
+            height: 55px;
+            width: 55px;
+            display: block;
+            border-radius: 100%;
+            background: #25D366;
+            @include flex;
+            &:hover{
+                background:darken( #25D366, 5);
+            }
+            i{
+                color: white;
+                font-size: 35px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 750px){
+    .whatsAppButton{
+        right: .5em;
+        bottom: .5em;
+    }
+}

@@ -1,0 +1,12 @@
+@import '../../../styles/variables';
+@import './footerContainer';
+@import './footerInformation';
+@import './footerSocial';
+
+footer{
+    background: $gray;
+    padding: 40px 0px 20px 0px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

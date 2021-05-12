@@ -1,0 +1,16 @@
+@import '../../styles/variables';
+
+.info-title{
+    font-size: 18px;
+    font-weight: 600;
+    margin: 10px 0;
+    color: $gray;
+    line-height: 22px;
+}
+
+@media screen and (max-width:1000px){
+    .info-title{
+        font-size: 16px;
+        line-height: 19px;
+    }
+}

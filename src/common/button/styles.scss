@@ -1,0 +1,30 @@
+@import '../../styles/variables';
+
+button{
+    background: $green;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: $heebo;
+    line-height: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    border: 0;
+    outline: none;
+    padding: 20px 40px;
+    border-radius: 3px;
+    cursor: pointer;
+    a{
+        color: white;
+    }
+    &:hover{
+        background: darken($green, 3);
+    }
+}
+
+@media screen and (max-width: 750px){
+    button{
+        font-size: 14px;
+        padding: 18px 34px;
+    }
+}

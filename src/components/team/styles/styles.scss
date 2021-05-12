@@ -1,0 +1,19 @@
+@import '../../../styles/variables';
+@import './teamSliderItem';
+
+.team{
+    padding: 100px 0px 100px 0px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1000px){
+    .team{
+        padding: 60px 10px 60px 10px;
+    }
+}
+
+@media screen and (max-width: 750px){
+    .team{
+        padding: 40px 10px 40px 10px;
+    }
+}
